@@ -6,8 +6,11 @@ fs.readFile("input.txt", (err, content) => {
 
     for (let i of valueArray) {
         i = Number(i);
+
+        // check whats left after current item was removed from sum
         const valueLeft = sum - i;
 
+        // if array contains that item, log it and break
         if (valueArray.includes(valueLeft.toString())) {
 
             // Part 1
