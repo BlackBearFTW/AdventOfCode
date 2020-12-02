@@ -34,12 +34,12 @@ fs.readFile("input.txt", (err, content) => {
         if (found) break
 
         // look through all items that arent current item
-        for (const item2 of list.filter(elt => elt !== item)){
+        for (const item2 of list.filter(el => el !== item)){
 
             if (found) break
 
             // loop through all items that arent current item or item2
-            for (const item3 of list.filter(elt => elt !== item && elt !==item2))
+            for (const item3 of list.filter(el => el !== item && el !==item2))
 
                 if (item + item2 + item3 === 2020){
 
