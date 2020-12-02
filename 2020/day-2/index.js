@@ -1,8 +1,7 @@
 let fs = require("fs");
 
 fs.readFile("input.txt", (err, content) => {
-   //const valueArray = content.toString().split('\r\n');
-   const valueArray = ['1-3 a: abcde', '1-3 b: cdefg', '2-9 c: ccccccccc']
+    const valueArray = content.toString().split('\r\n');
     let acceptCount = 0;
 
     // Part 1
@@ -43,9 +42,9 @@ fs.readFile("input.txt", (err, content) => {
         // split item on space
         const data = item.split(/ +/);
 
-        // split first data item on '-' and get the first and second index
-        const firstIndex = data[0].split('-')[0];
-        const secondIndex = data[0].split('-')[1];
+        // split first data item on '-' and get the first and second index (-1 since there is no 0 index in input)
+        const firstIndex = Number(data[0].split('-')[0]) - 1;
+        const secondIndex = Number(data[0].split('-')[1]) - 1;
 
         // get the character that needs to be searched for and remove ':'
         const matchChar = data[1].slice(0, -1);
@@ -53,12 +52,11 @@ fs.readFile("input.txt", (err, content) => {
         // get the input string
         const matchString = data[2];
 
-        if(matchString.charAt(firstIndex) == matchChar && matchString.charAt(secondIndex) !== matchChar) {
+        if (matchString.charAt(firstIndex) == matchChar && matchString.charAt(secondIndex) !== matchChar) {
             matchCount++;
         } else if (matchString.charAt(firstIndex) !== matchChar && matchString.charAt(secondIndex) == matchChar) {
             matchCount++;
         }
-
 
     }
 
