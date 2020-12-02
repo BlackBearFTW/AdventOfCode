@@ -9,10 +9,21 @@ fs.readFile("input.txt", (err, content) => {
         const valueLeft = sum - i;
 
         if (valueArray.includes(valueLeft.toString())) {
-            console.log(`${valueLeft} And ${i} = ${valueLeft + i}`);
-            console.log(valueLeft * i);
+
+            // Part 1
+            console.log('Part 1');
+            console.log(`${valueLeft} + ${i} = ${valueLeft + i}`);
+            console.log(`${valueLeft} * ${i} = ` + valueLeft * i);
+
+            // Part 2
+            console.log('\nPart 2');
+            console.log('404, Solution not found');
+
+            // End For loop
             break;
         }
+
     }
+
 });
 
