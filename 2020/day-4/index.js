@@ -28,7 +28,7 @@ fs.readFile("input.txt", (err, content) => {
 
 
 
-    
+
 
     // Part 2
     let fullyValidPassport = validPassports.filter((passport) => {
