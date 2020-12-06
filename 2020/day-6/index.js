@@ -6,10 +6,12 @@ fs.readFile("input.txt", (err, content) => {
     // Part 1
     let count = 0;
 
+    // remove all \r\n
     valueArray.forEach((item) => {
         valueArray[valueArray.indexOf(item)] = item.replace(new RegExp(/\r\n/g), '').trim();
     });
 
+    // remove all duplicates
     for (let item of valueArray) {
         count += item.toString().replace(new RegExp(/(.)(?=.*\1)/g), "").trim().length;
     }
