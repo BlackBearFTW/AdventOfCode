@@ -1,0 +1,16 @@
+C:\Users\Gebruiker\Documents\Vrije Tijd\DEVELOPMENT\AdventOfCode\2021\bin\Debug\net5.0\2021.exe
+C:\Users\Gebruiker\Documents\Vrije Tijd\DEVELOPMENT\AdventOfCode\2021\bin\Debug\net5.0\2021.deps.json
+C:\Users\Gebruiker\Documents\Vrije Tijd\DEVELOPMENT\AdventOfCode\2021\bin\Debug\net5.0\2021.runtimeconfig.json
+C:\Users\Gebruiker\Documents\Vrije Tijd\DEVELOPMENT\AdventOfCode\2021\bin\Debug\net5.0\2021.runtimeconfig.dev.json
+C:\Users\Gebruiker\Documents\Vrije Tijd\DEVELOPMENT\AdventOfCode\2021\bin\Debug\net5.0\2021.dll
+C:\Users\Gebruiker\Documents\Vrije Tijd\DEVELOPMENT\AdventOfCode\2021\bin\Debug\net5.0\ref\2021.dll
+C:\Users\Gebruiker\Documents\Vrije Tijd\DEVELOPMENT\AdventOfCode\2021\bin\Debug\net5.0\2021.pdb
+C:\Users\Gebruiker\Documents\Vrije Tijd\DEVELOPMENT\AdventOfCode\2021\obj\Debug\net5.0\2021.csproj.AssemblyReference.cache
+C:\Users\Gebruiker\Documents\Vrije Tijd\DEVELOPMENT\AdventOfCode\2021\obj\Debug\net5.0\2021.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gebruiker\Documents\Vrije Tijd\DEVELOPMENT\AdventOfCode\2021\obj\Debug\net5.0\2021.AssemblyInfoInputs.cache
+C:\Users\Gebruiker\Documents\Vrije Tijd\DEVELOPMENT\AdventOfCode\2021\obj\Debug\net5.0\2021.AssemblyInfo.cs
+C:\Users\Gebruiker\Documents\Vrije Tijd\DEVELOPMENT\AdventOfCode\2021\obj\Debug\net5.0\2021.csproj.CoreCompileInputs.cache
+C:\Users\Gebruiker\Documents\Vrije Tijd\DEVELOPMENT\AdventOfCode\2021\obj\Debug\net5.0\2021.dll
+C:\Users\Gebruiker\Documents\Vrije Tijd\DEVELOPMENT\AdventOfCode\2021\obj\Debug\net5.0\ref\2021.dll
+C:\Users\Gebruiker\Documents\Vrije Tijd\DEVELOPMENT\AdventOfCode\2021\obj\Debug\net5.0\2021.pdb
+C:\Users\Gebruiker\Documents\Vrije Tijd\DEVELOPMENT\AdventOfCode\2021\obj\Debug\net5.0\2021.genruntimeconfig.cache
