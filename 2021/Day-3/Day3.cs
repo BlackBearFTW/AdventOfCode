@@ -71,9 +71,9 @@ namespace _2021.Day_3
 
                     foreach (string line in filteredList)
                     {
-                        int firstNumber = Int32.Parse(line.ElementAt(i).ToString().TrimEnd());
+                        int currentIndexedNumberValue = Int32.Parse(line.ElementAt(i).ToString().TrimEnd());
 
-                        if (firstNumber == 1)
+                        if (currentIndexedNumberValue == 1)
                         {
                             oneCount++;
                             continue;
