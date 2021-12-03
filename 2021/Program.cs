@@ -1,4 +1,4 @@
-﻿using _2021.Day_2;
+﻿using _2021.Day_3;
 using System;
 
 namespace _2021
@@ -7,7 +7,7 @@ namespace _2021
     {
         static void Main(string[] args)
         {
-            Day2 day = new();
+            Day3 day = new();
 
             day.Puzzle_2();
         }
