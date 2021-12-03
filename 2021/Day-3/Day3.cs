@@ -50,6 +50,7 @@ namespace _2021.Day_3
             Console.WriteLine($"{gammaRate} X {epsilonRate} = {gammaRate * epsilonRate}");
         }
 
+        // 3277956
         public void Puzzle_2()
         {
             string OxygenRatingBinary = filterForCommon(splittedInput,1, 'M');
