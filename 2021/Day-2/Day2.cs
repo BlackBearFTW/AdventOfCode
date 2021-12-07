@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 
 namespace _2021.Day_2
 {
-    class Day2
+    class Day4
     {
         private readonly string inputString;
         private readonly List<String> splittedInput;
 
-        public Day2()
+        public Day4()
         {
             inputString = File.ReadAllText(@"C:\Users\Gebruiker\Documents\Vrije Tijd\DEVELOPMENT\AdventOfCode\2021\Day-2\input.txt");
             splittedInput = inputString.Split("\n").ToList();
